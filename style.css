@@ -37,3 +37,20 @@
 .navbar-dark .navbar-toggler:hover{
   border-color: #D35266;
 }
+
+.carousel-control-next, .carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 15%;
+  color: red;
+  text-align: center;
+  opacity: .5;
+  transition: opacity .15s ease;
