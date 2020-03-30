@@ -1,0 +1,21 @@
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.custom-1 {
+  background-color: #383838;
+}
+
+.navbar-dark .navbar-nav li:first-child i{
+  color: #D35266;
+}
+.navbar-dark .navbar-nav li:nth-child(2) a {
+  color: #D35266;
+}
+.navbar-dark .navbar-brand i{
+  color: #D35266;
+}
+.navbar-dark .navbar-nav li button {
+  background-color: #D35266;
+}
