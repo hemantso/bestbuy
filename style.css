@@ -10,6 +10,7 @@
 .navbar-dark .navbar-nav li:first-child i{
   color: #D35266;
 }
+
 .navbar-dark .navbar-nav li:nth-child(2) a {
   color: #D35266;
 }
@@ -18,4 +19,20 @@
 }
 .navbar-dark .navbar-nav li button {
   background-color: #D35266;
+}
+.navbar-dark .navbar-nav li button:focus {
+  background-color: #D35266;
+}
+.navbar-dark .navbar-nav li button:hover {
+  background-color: rgb(233, 35, 65);
+}
+.navbar-dark .navbar-brand {
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar-dark .navbar-toggler:hover{
+  border-color: #D35266;
 }

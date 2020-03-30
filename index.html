@@ -9,16 +9,19 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" rel="stylesheet"> 
   </head>
   <body>
-    <nav class="navbar navbar-dark  navbar-expand-sm custom-1">
+    <nav class="navbar navbar-dark  navbar-expand-md custom-1">
         <div class="container ">
            <a href="#" class="navbar-brand">
-            <!-- <i class="fas fa-drum fa-2x"></i> -->
-            <img src="..." width="30" height="30" alt="logo">
+            <i class="fas fa-drum fa-2x"></i>
             <span class="font-weight-bolder ">
              BESTBUY
             </span>
            </a>
-           <ul class="navbar-nav d-flex justify-content-between align-items-center">
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-list">
+           <ul class="navbar-nav d-flex justify-content-between align-items-center" >
             <li class="nav-item d-flex justify-content-between">
               <a class="nav-link" href="#">
                 <i class="fas fa-home"></i>                  
@@ -54,13 +57,14 @@
               </a>
             </li>
             </ul>
-
-          <a class="nav-link" href="#" >
+          
+          <div class="nav-link" href="#" >
             <span class="navbar-text text-white">
               Hey, there!
             </span>
             <img src="./images/hemant.jpeg" width="30" height="30" class="rounded-circle">
-          </a>
+          </div>
+        </div>
         </div>
       </nav>
       
