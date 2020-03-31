@@ -25,7 +25,7 @@
 ![screenshot](./images/Screenshot1.png) ![screenshot](images/readme-images/2.png)
 
 - Search page
-![screenshot](./images/Screenshot1.png)
+![screenshot](./images/Screenshot2.png)
 
 
 ## Mobile views
