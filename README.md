@@ -18,7 +18,7 @@
 
 ## Video presentation
 
-[![Video]](https://www.loom.com/share/601f07f30f4545559cfe2bc92fa4a839)
+[![Video](./images/video.png)](https://www.loom.com/share/601f07f30f4545559cfe2bc92fa4a839)
 
 ## Desktop views
 - Main page
