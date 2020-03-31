@@ -14,6 +14,9 @@
 .navbar-dark .navbar-nav li:nth-child(2) a {
   color: #D35266;
 }
+.fa-drum {
+  color: #D35266;
+}
 .navbar-dark .navbar-brand i{
   color: #D35266;
 }
@@ -69,6 +72,14 @@
 .jumbotron .form-inline .btn {
   border-radius: 0;
 } 
+.card-title {
+  color: #D35266;
+  font-weight: 600;
+}
+
+.carousel .section-heading i{
+  color: #D35266;
+}
 
 .carousel {
   background-color: #8080802e;
@@ -88,6 +99,21 @@ footer {
 
 footer .footer-copyright {
   border-top: 1px solid #8080802e;
+}
+
+.footer {
+  color: #383838;
+}
+
+footer .col-md-3 ul a {
+  color: #383838 !important;
+}
+footer .col-md-3 h5 {
+  border-bottom: 1px solid #8080802e;
+  padding: 0.5rem;
+}
+footer .footer-copyright a{
+  color: #D35266;
 }
 
 @media only screen and (max-width: 768px) {

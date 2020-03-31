@@ -34,6 +34,9 @@
     align-items: center;
 
 }
+.fa-drum {
+  color: #D35266;
+}
 
 .navbar-dark .navbar-toggler:hover{
   border-color: #D35266;
@@ -105,7 +108,9 @@ main {
   padding: 1rem;
 }
 
-
+.footer {
+  color: #383838;
+}
 main .side-right .row .card {
   border: 0;
   background-color: #80808000;
@@ -123,6 +128,16 @@ main .col-md-3 h5 {
   padding: 0.5rem;
 }
 
+footer .col-md-3 ul a {
+  color: #383838 !important;
+}
+footer .col-md-3 h5 {
+  border-bottom: 1px solid #8080802e;
+  padding: 0.5rem;
+}
+footer .footer-copyright a{
+  color: #D35266;
+}
 @media only screen and (max-width: 768px) {
   main .col-md-3{
     padding-bottom: 2rem;
