@@ -13,16 +13,16 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/hemant-soni-vst-au4/bestbuy/1be3d8b18600d53bfc25d93e45ee7ab1c57d7122/index.html)
+[Live Demo Link](https://rawcdn.githack.com/hemant-soni-vst-au4/bestbuy/6c4cc017da20b382fc16b69238cc85e8ff40ae49/index.html)
 
 
 ## Video presentation
 
-[![Video]]()
+[![Video]](https://www.loom.com/share/601f07f30f4545559cfe2bc92fa4a839)
 
 ## Desktop views
 - Main page
-![screenshot](./images/Screenshot1.png) ![screenshot](images/readme-images/2.png)
+![screenshot](./images/Screenshot1.png) 
 
 - Search page
 ![screenshot](./images/Screenshot2.png)
