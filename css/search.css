@@ -156,4 +156,11 @@ main .col-md-3 h5 {
     margin-right: 1.5rem;
     margin-left: 1rem;
   }
+  .information .jumbotron {
+    margin-bottom: 0;
+      background-color: #D35266;
+      border-radius: 0;
+      color: white;
+      padding: 3rem 1rem ;
+  }
 }

@@ -44,6 +44,10 @@
     color: white;
     padding: 8rem 1rem 2rem 1rem;
 }
+
+.latest .carousel{
+  background-color: white;
+}
 .card .card-body .btn {
   color: white;
 }
@@ -73,13 +77,25 @@
   padding: 2rem;
 }
 .section-heading-content {
-  border-bottom: 1px solid #888888;
+  border-bottom: 1px solid #8080802e;
 }
 
 footer {
   background-color: #8080802e;
+  border-top: 1px solid #8080802e;
 }
 
+
 footer .footer-copyright {
-  border-top: 1px solid #888888;
+  border-top: 1px solid #8080802e;
+}
+
+@media only screen and (max-width: 768px) {
+  .information .jumbotron {
+    margin-bottom: 0;
+      background-color: #D35266;
+      border-radius: 0;
+      color: white;
+      padding: 3rem 1rem ;
+  }
 }
