@@ -4,7 +4,7 @@
     <title>BESTBUY</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" rel="stylesheet"> 
   </head>
@@ -67,30 +67,103 @@
         </div>
       </nav>
 
-      <section>
+      <section class="information">
       <div class="jumbotron ">
         .<div class="container-fluid d-flex flex-column  align-items-center justify-content-end">
         <h1>BESTBUY</h1>
         <p>Buy Best Music Instrument At Affordable Price</p>
         <form class="form-inline">
-          <div class="input-group input-group-sm mr-2">
+          <div class="input-group  mr-2">
             <div class="input-group-prepend">
-              <span class="input-group-text" id="basic-addon1">@</span>
+              <button type="button" class="btn  dropdown-toggle bg-white text-dark" data-toggle="dropdown">
+                Dropdown button
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+              </div>
             </div>
             <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
           </div>
-          <button class="btn btn-info btn-sm" type="submit"><i class="fas fa-search"></i></button>
+          <a class="btn btn-dark" href="search.html" type="submit">Search</a>
         </form>
       </div>
       </div>
     </section>
 
-    <section>
+
+    <section class="mt-3">
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner container-fluid">
+        <div class="container">
+          <div class="section-heading">
+            <div class="section-heading-content d-flex ">
+            <h6 class="ml-2 font-weight-bolder">Latest Post</h6>
+          </div>
+          </div>
+        
+          <div class="carousel-inner container-fluid">
           <div class="row">
             <div class="col-sm-1">
               <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+            </div>
+          
+          <div class="col-sm-10 mb-2">
+          <div class="carousel-items">
+            <div class="row">
+          <div class="col-md-12 col-sm-6">
+            <div class="card mb-2">
+              <div class="row">
+                <div class="col-md-4">
+              <img class="card-img-top"
+                src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                alt="Card image cap">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <a class="btn btn-primary">Button</a>
+              </div>
+            </div>
+           </div>
+          </div>
+          </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-1">
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          </div>
+          </div>
+      </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="mt-3">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="container">
+          <div class="section-heading">
+            <div class="section-heading-content d-flex ">
+              <i class="fas fa-guitar fa-1x"></i>
+            <h6 class="ml-2 font-weight-bolder">Guitars</h6>
+            <p class="ml-4">(Electromic, Manual, Automatics etc.)</p>
+          </div>
+          </div>
+        <div class="carousel-inner container-fluid">
+          <div class="row">
+            <div class="col-sm-1 justify-conetent-center align-items-center">
+             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
               </a>
@@ -280,11 +353,20 @@
           </div>
           </div>
       </div>
+    </div>
       </div>
     </section>
 
-    <section>
+    <section class="mt-3">
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="container">
+          <div class="section-heading">
+            <div class="section-heading-content d-flex ">
+              <i class="fas fa-guitar fa-1x"></i>
+            <h6 class="ml-2 font-weight-bolder">Guitars</h6>
+            <p class="ml-4">(Electromic, Manual, Automatics etc.)</p>
+          </div>
+          </div>
         <div class="carousel-inner container-fluid">
           <div class="row">
             <div class="col-sm-1">
@@ -479,10 +561,19 @@
           </div>
       </div>
       </div>
+      </div>
     </section>
 
-    <section class="mt-1">
+    <section class="mt-3">
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="container">
+          <div class="section-heading">
+            <div class="section-heading-content d-flex ">
+              <i class="fas fa-guitar fa-1x"></i>
+            <h6 class="ml-2 font-weight-bolder">Guitars</h6>
+            <p class="ml-4">(Electromic, Manual, Automatics etc.)</p>
+          </div>
+          </div>
         <div class="carousel-inner container-fluid">
           <div class="row">
             <div class="col-sm-1">
@@ -677,10 +768,11 @@
           </div>
       </div>
       </div>
+      </div>
     </section>
 
     <!-- Footer -->
-<footer class="page-footer font-small blue pt-4">
+<footer class="page-footer font-small blue pt-4 mt-3">
 
   <!-- Footer Links -->
   <div class="container-fluid text-center text-md-left">

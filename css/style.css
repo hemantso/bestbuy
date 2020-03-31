@@ -1,0 +1,85 @@
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.custom-1 {
+  background-color: #383838;
+}
+
+.navbar-dark .navbar-nav li:first-child i{
+  color: #D35266;
+}
+
+.navbar-dark .navbar-nav li:nth-child(2) a {
+  color: #D35266;
+}
+.navbar-dark .navbar-brand i{
+  color: #D35266;
+}
+.navbar-dark .navbar-nav li button {
+  background-color: #D35266;
+}
+.navbar-dark .navbar-nav li button:focus {
+  background-color: #D35266;
+}
+.navbar-dark .navbar-nav li button:hover {
+  background-color: rgb(212, 52, 76);
+}
+.navbar-dark .navbar-brand {
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar-dark .navbar-toggler:hover{
+  border-color: #D35266;
+}
+.information .jumbotron {
+  margin-bottom: 0;
+    background-color: #D35266;
+    border-radius: 0;
+    color: white;
+    padding: 8rem 1rem 2rem 1rem;
+}
+.card .card-body .btn {
+  color: white;
+}
+.card .card-body .btn-primary {
+  background-color: #D35266;
+  color: white;
+  border-color: #D35266;
+}
+.card .card-body .btn:hover {
+  cursor: pointer;
+}
+.jumbotron .form-inline .input-group-prepend .btn {
+  border-right: 1px solid #D35266;
+}
+.jumbotron .form-inline .input-group .form-control {
+  border-radius: 0;
+  border-right: 1px solid #D35266;
+}
+.jumbotron .form-inline .btn {
+  border-radius: 0;
+} 
+
+.carousel {
+  background-color: #8080802e;
+}
+.section-heading {
+  padding: 2rem;
+}
+.section-heading-content {
+  border-bottom: 1px solid #888888;
+}
+
+footer {
+  background-color: #8080802e;
+}
+
+footer .footer-copyright {
+  border-top: 1px solid #888888;
+}
