@@ -199,4 +199,7 @@ footer .footer-copyright a{
       color: white;
       padding: 3rem 1rem ;
   }
+  .content .carousel-inner {
+    height: 440px;
+  }
 }
