@@ -21,6 +21,7 @@
 [![Video](./images/video.png)](https://www.loom.com/share/601f07f30f4545559cfe2bc92fa4a839)
 
 ## Desktop views
+
 - Main page
 ![screenshot](./images/Screenshot1.png) 
 
@@ -29,6 +30,7 @@
 
 
 ## Mobile views
+
 - Main page
 ![screenshot](./images/home.png)
 
