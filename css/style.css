@@ -47,10 +47,88 @@
     color: white;
     padding: 8rem 1rem 2rem 1rem;
 }
+.latest .carousel{
+  background: #2f4357;
+  margin: auto;
+  width: 100%;
+}
+.latest .carousel-inner {
+  height: 180px;
+}
+.latest .carousel-item{
+  width: 80%;
+  float: inherit;
+  margin: auto;
+  min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
 
+.latest .carousel-indicators {
+  display: none;
+}
+
+
+.latest .fa-chevron-left {
+  color: #D35266;
+}
+
+.latest .fa-chevron-right {
+  color: #D35266;
+}
+
+
+
+
+.latest .bs-example{
+margin: 20px;
+}
 .latest .carousel{
   background-color: white;
 }
+.latest .carousel .card {
+  border: none;
+}
+
+
+
+.content .carousel{
+  margin: auto;
+  width: 100%;
+}
+
+.content .carousel-item{
+  width: 80%;
+  float: inherit;
+  margin: auto;
+}
+
+section .carousel-indicators {
+  display: none;
+}
+
+.content .carousel-control-next-icon {
+  background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  color: black;
+}
+
+.content .fa-chevron-left {
+  color: #D35266;
+}
+
+.content .fa-chevron-right {
+  color: #D35266;
+}
+
+.content {
+  background-color: #8080802e;
+  padding-bottom: 1rem;
+}
+.content .carousel .card {
+  border: none;
+}
+.content .carousel-inner {
+  height: 400px;
+}
+
 .card .card-body .btn {
   color: white;
 }
@@ -81,9 +159,6 @@
   color: #D35266;
 }
 
-.carousel {
-  background-color: #8080802e;
-}
 .section-heading {
   padding: 2rem;
 }
