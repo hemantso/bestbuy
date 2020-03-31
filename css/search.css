@@ -20,12 +20,15 @@
 }
 .navbar-dark .navbar-nav li button {
   background-color: #D35266;
+  color: white;
 }
 .navbar-dark .navbar-nav li button:focus {
   background-color: #D35266;
+  color: white;
 }
 .navbar-dark .navbar-nav li button:hover {
   background-color: rgb(212, 52, 76);
+  color: white;
 }
 .navbar-dark .navbar-brand {
   display: flex;
