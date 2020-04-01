@@ -219,6 +219,13 @@ footer .col-md-3 h5 {
   }
 
   .content .carousel-inner {
-    height: 440px;
+    height: auto;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .content .carousel-inner {
+    height: auto;
   }
 }
