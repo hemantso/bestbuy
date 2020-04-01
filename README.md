@@ -1,6 +1,6 @@
-# BESTBUY - Online Music instrument shopping website
+# BESTBUY - Online Music instrument shopping website 
 
-> This project is the capstone project of Microverse curriculum HTML and CSS3 section. The website is about the BESTBUY, a place where people can buy Music instruments. The website contain 2 pages, main page where I introduced the diffrent category of instruments, the search page where I presented the searched query items. All the pages are responsive (break point 768px) and the design is inspired from Mohammed Awad in Behance.
+> This project is the capstone project of Microverse curriculum HTML and CSS3 section. The website is about the BESTBUY(Online Music instrument shopping website), a place where people can buy Music instruments. The website contains 2 pages, main page where I introduced the different category of instruments, the search page where I presented the searched query items. All the pages are responsive (break point 768px) and the design is inspired by Mohammed Awad in Behance.
 
 
 ## Built With
@@ -11,7 +11,8 @@
 - Grid layout.
 - Bootstrap.
 
-## Live Demo
+
+## Live Demo [Live Demo
 
 [Live Demo Link](https://rawcdn.githack.com/hemant-soni-vst-au4/bestbuy/6c4cc017da20b382fc16b69238cc85e8ff40ae49/index.html)
 
@@ -68,6 +69,8 @@ Give a ⭐️ if you like this project!
 
 - https://www.microverse.org/.
 
+## Credits
+📄💻 Layouts design by <a href="https://www.behance.net/M_Awad" target="_blank">Mohammed Awad in Behance</a>
 
 ## 📝 License
 
