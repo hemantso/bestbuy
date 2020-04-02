@@ -14,7 +14,7 @@
 
 ## Live Demo [Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/hemant-soni-vst-au4/bestbuy/6c4cc017da20b382fc16b69238cc85e8ff40ae49/index.html)
+[Live Demo Link](https://rawcdn.githack.com/hemant-soni-vst-au4/bestbuy/ac43db14b171f20ea828eaf80f467921c2d9ba87/index.html)
 
 
 ## Video presentation
