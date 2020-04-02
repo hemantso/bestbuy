@@ -1,0 +1,245 @@
+body {
+  font-family:
+    'GothamBold',
+    'Helvetica Neue Light',
+    'Helvetica Neue',
+    Helvetica,
+    Arial,
+    'Lucida Grande',
+    sans-serif;
+  font-weight: 300;
+}
+
+.custom-1 {
+  background-color: #383838;
+}
+
+.navbar-dark .navbar-brand i {
+  color: #d35266;
+}
+
+.navbar-dark .navbar-nav li:first-child i {
+  color: #d35266;
+}
+
+footer .footer-copyright a {
+  color: #d35266;
+}
+
+footer .col-md-3 ul a {
+  color: #383838 !important;
+}
+
+.navbar-dark .navbar-nav li:nth-child(2) a {
+  color: #d35266;
+}
+
+.navbar-dark .navbar-nav li button {
+  background-color: #d35266;
+  color: white;
+}
+
+.navbar-dark .navbar-nav li button:focus {
+  background-color: #d35266;
+  color: white;
+}
+
+.navbar-dark .navbar-nav li button:hover {
+  background-color: rgb(212, 52, 76);
+  color: white;
+}
+
+.navbar-dark .navbar-brand {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-drum {
+  color: #d35266;
+}
+
+.navbar-dark .navbar-toggler:hover {
+  border-color: #d35266;
+}
+
+.information .jumbotron {
+  margin-bottom: 0;
+  background-color: #d35266;
+  border-radius: 0;
+  color: white;
+  padding: 4rem 1rem 2rem 7rem;
+}
+
+.page-footer .container-fluid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.information .jumbotron .container-fluid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.information .jumbotron .container-fluid .input-group {
+  margin-right: 2rem;
+}
+
+.jumbotron .form-inline .btn {
+  border-radius: 0;
+}
+
+.card .card-body .btn {
+  color: white;
+}
+
+.card .card-body .btn-primary {
+  background-color: #d35266;
+  color: white;
+  border-color: #d35266;
+}
+
+.card .card-body .btn:hover {
+  cursor: pointer;
+}
+
+.jumbotron .form-inline .input-group-prepend .btn {
+  border-right: 1px solid #d35266;
+}
+
+.jumbotron .form-inline .input-group .form-control {
+  border-radius: 0;
+  border-right: 1px solid #d35266;
+}
+
+.carousel {
+  background-color: #8080802e;
+}
+
+.section-heading {
+  padding: 2rem;
+}
+
+.section-heading-content {
+  border-bottom: 1px solid #888;
+}
+
+footer {
+  background-color: #8080802e;
+  border-top: 1px solid #8080802e;
+  padding-top: 1rem;
+  font-size: small;
+}
+
+footer .footer-copyright {
+  border-top: 1px solid #888;
+  text-align: center;
+}
+
+main .row .col-md-3 {
+  border: 1px solid #8080802e;
+}
+
+main .row .col-md-9 {
+  border: 1px solid #8080802e;
+}
+
+main {
+  background-color: #8080802e;
+  border-bottom: 1px solid #8080802e;
+}
+
+.col-md-9 .col-sm-12 {
+  border: 1px solid #8080802e;
+  padding: 1rem;
+}
+
+main .side-right .row .card {
+  border: 0;
+  background-color: #80808000;
+}
+
+main .side-right .row .card .card-title {
+  color: #d35266;
+  font-weight: 600;
+}
+
+main .col-md-3 h5 {
+  border-bottom: 1px solid #8080802e;
+  padding: 0.5rem;
+}
+
+footer .col-md-3 h5 {
+  border-bottom: 1px solid #8080802e;
+  padding: 0.5rem;
+}
+
+.page-footer .container-fluid .row {
+  display: flex;
+  justify-content: center;
+}
+
+.page-footer .container-fluid .row .col-md-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  main .col-md-3 {
+    padding-bottom: 2rem;
+  }
+
+  main .row .mt-5 {
+    margin-top: 1rem !important;
+  }
+
+  main .row .ml-3 {
+    margin-left: 1rem !important;
+  }
+
+  main .row .side-left .align-items-center {
+    display: flex;
+    align-items: flex-start !important;
+  }
+
+  main .row .side-menu-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .col-md-3 h5 {
+    border-bottom: 1px solid #8080802e;
+    padding-bottom: 0.5rem;
+  }
+
+  main .side-menu-content .category {
+    display: flex;
+    justify-content: center;
+  }
+
+  main .row .side-left .side-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main .side-menu .side .form-check {
+    display: inline-flex !important;
+    padding-left: 0;
+    margin-right: 1.5rem;
+    margin-left: 1rem;
+  }
+
+  .information .jumbotron {
+    margin-bottom: 0;
+    background-color: #d35266;
+    border-radius: 0;
+    color: white;
+    padding: 3rem 1rem;
+  }
+}
