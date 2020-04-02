@@ -29,6 +29,13 @@
 - Search page
 ![screenshot](./images/Screenshot2.png)
 
+## Desktop views
+
+- Main page
+![screenshot](./image/hometablet.png) 
+
+- Search page
+![screenshot](./images/searchtablet.png)
 
 ## Mobile views
 
