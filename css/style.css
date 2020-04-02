@@ -1,6 +1,12 @@
 body {
-  font-family: 'GothamBold', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica,
-    Arial, 'Lucida Grande', sans-serif;
+  font-family:
+    'GothamBold',
+    'Helvetica Neue Light',
+    'Helvetica Neue',
+    Helvetica,
+    Arial,
+    'Lucida Grande',
+    sans-serif;
   font-weight: 300;
 }
 
@@ -74,20 +80,26 @@ footer .col-md-3 ul a {
   color: white;
   padding: 8rem 1rem 2rem 1rem;
 }
+
+.page-footer .container-fluid {
+  display: flex;
+  justify-content: space-between;
+}
+
 .information .jumbotron .container-fluid {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: end;
 }
+
 .information .jumbotron .container-fluid .input-group {
   margin-right: 2rem;
 }
+
 .latest .carousel-inner {
   height: auto;
 }
-
-
 
 .latest .carousel-item {
   width: 80%;
@@ -111,6 +123,11 @@ section .carousel-indicators {
 .latest .fa-chevron-right {
   color: #d35266;
 }
+
+.section-heading-content {
+  border-bottom: 1px solid #8080802e;
+}
+
 .latest .section-heading-content {
   display: flex;
 }
@@ -118,17 +135,21 @@ section .carousel-indicators {
 .content .section-heading-content {
   display: flex;
 }
+
 .latest .bs-example .section-heading-content h6 {
   margin-left: 1rem;
   font-weight: bolder;
 }
+
 .content .bs-example .section-heading-content h6 {
   margin-left: 0.5rem;
   font-weight: bolder;
 }
+
 .content .bs-example .section-heading-content p {
   margin-left: 3rem;
 }
+
 .latest .bs-example {
   margin: 20px;
 }
@@ -152,11 +173,6 @@ section .carousel-indicators {
   margin: auto;
 }
 
-.content .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-  color: black;
-}
-
 .content .fa-chevron-left {
   color: #d35266;
 }
@@ -173,7 +189,6 @@ section .carousel-indicators {
 .content .carousel .card {
   border: none;
 }
-
 
 .jumbotron .form-inline .btn {
   border-radius: 0;
@@ -211,15 +226,6 @@ section .carousel-indicators {
   padding: 2rem;
 }
 
-.section-heading-content {
-  border-bottom: 1px solid #8080802e;
-}
-
-footer {
-  background-color: #8080802e;
-  border-top: 1px solid #8080802e;
-}
-
 footer .footer-copyright {
   border-top: 1px solid #8080802e;
   text-align: center;
@@ -229,6 +235,7 @@ footer {
   color: #383838;
   padding-top: 1rem;
   font-size: small;
+  border-top: 1px solid #8080802e;
 }
 
 footer .col-md-3 h5 {
@@ -236,10 +243,6 @@ footer .col-md-3 h5 {
   padding: 0.5rem;
 }
 
-.page-footer .container-fluid {
-  display: flex;
-  justify-content: space-between;
-}
 .page-footer .container-fluid .row {
   display: flex;
   justify-content: center;
@@ -260,9 +263,8 @@ footer .col-md-3 h5 {
     color: white;
     padding: 3rem 1rem;
   }
+
   .content .carousel-inner {
     height: auto;
   }
 }
-
-

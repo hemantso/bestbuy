@@ -1,6 +1,12 @@
 body {
-  font-family: 'GothamBold', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica,
-    Arial, 'Lucida Grande', sans-serif;
+  font-family:
+    'GothamBold',
+    'Helvetica Neue Light',
+    'Helvetica Neue',
+    Helvetica,
+    Arial,
+    'Lucida Grande',
+    sans-serif;
   font-weight: 300;
 }
 
@@ -65,15 +71,23 @@ footer .col-md-3 ul a {
   color: white;
   padding: 4rem 1rem 2rem 7rem;
 }
+
+.page-footer .container-fluid {
+  display: flex;
+  justify-content: space-between;
+}
+
 .information .jumbotron .container-fluid {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: end;
 }
+
 .information .jumbotron .container-fluid .input-group {
   margin-right: 2rem;
 }
+
 .jumbotron .form-inline .btn {
   border-radius: 0;
 }
@@ -143,7 +157,6 @@ main {
   padding: 1rem;
 }
 
-
 main .side-right .row .card {
   border: 0;
   background-color: #80808000;
@@ -163,10 +176,7 @@ footer .col-md-3 h5 {
   border-bottom: 1px solid #8080802e;
   padding: 0.5rem;
 }
-.page-footer .container-fluid {
-  display: flex;
-  justify-content: space-between;
-}
+
 .page-footer .container-fluid .row {
   display: flex;
   justify-content: center;
@@ -178,6 +188,7 @@ footer .col-md-3 h5 {
   align-items: center;
   margin-bottom: 1rem;
 }
+
 @media only screen and (max-width: 768px) {
   main .col-md-3 {
     padding-bottom: 2rem;
@@ -196,7 +207,7 @@ footer .col-md-3 h5 {
     align-items: flex-start !important;
   }
 
-  main .row  .side-menu-content {
+  main .row .side-menu-content {
     display: flex;
     flex-direction: column;
   }
@@ -210,12 +221,13 @@ footer .col-md-3 h5 {
     display: flex;
     justify-content: center;
   }
+
   main .row .side-left .side-menu {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
   }
+
   main .side-menu .side .form-check {
     display: inline-flex !important;
     padding-left: 0;
