@@ -32,7 +32,7 @@
 ## Tablet views
 
 - Main page
-![screenshot](./image/hometablet.png) 
+![screenshot](./images/hometablet.png) 
 
 - Search page
 ![screenshot](./images/searchtablet.png)
