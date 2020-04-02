@@ -19,7 +19,7 @@
 
 ## Video presentation
 
-[![Video](./images/video.png)](https://www.loom.com/share/601f07f30f4545559cfe2bc92fa4a839)
+[![Video](./images/video.png)](https://www.loom.com/share/dc88784d9d0b4581911ba4407379924a)
 
 ## Desktop views
 
