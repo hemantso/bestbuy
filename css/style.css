@@ -87,6 +87,8 @@ footer .col-md-3 ul a {
   height: auto;
 }
 
+
+
 .latest .carousel-item {
   width: 80%;
   float: inherit;
@@ -172,9 +174,6 @@ section .carousel-indicators {
   border: none;
 }
 
-.content .carousel-inner {
-  height: auto;
-}
 
 .jumbotron .form-inline .btn {
   border-radius: 0;
@@ -253,7 +252,7 @@ footer .col-md-3 h5 {
   margin-bottom: 1rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 780px) {
   .information .jumbotron {
     margin-bottom: 0;
     background-color: #d35266;
@@ -261,14 +260,9 @@ footer .col-md-3 h5 {
     color: white;
     padding: 3rem 1rem;
   }
-
   .content .carousel-inner {
     height: auto;
   }
 }
 
-@media only screen and (min-width: 768px) {
-  .content .carousel-inner {
-    height: auto;
-  }
-}
+
