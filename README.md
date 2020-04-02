@@ -29,7 +29,7 @@
 - Search page
 ![screenshot](./images/Screenshot2.png)
 
-## Desktop views
+## Tablet views
 
 - Main page
 ![screenshot](./image/hometablet.png) 
